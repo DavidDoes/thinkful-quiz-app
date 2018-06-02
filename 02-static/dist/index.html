@@ -1,0 +1,93 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- jQuery -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Zilla+Slab" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- CHANGE IF HOST ON REPL.IT -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <header role="banner">
+    <div class="container progBar">
+      <div class="row">
+        <div class="col-sm-4">1/10</div>
+        <div class="col-sm-4">Coffee Roasting Quiz</div>
+        <div class="col-sm-4">Score: </div>
+      </div>
+    </div>
+  </header>
+<!--START-->
+  <main role="main">
+    <div id="start" class="">
+      <h1 role="heading">Think you know about roasting coffee?</h1>
+      <button role="button" type="button" class="startButton actionButtons">Flame on!</button>
+    </div>
+  </main>
+<!--QUESTIONS/FEEDBACK-->
+  <main role="main">
+    <div class="container">
+      <div class="questionForm">
+        <h2>Question 1</h2>
+        <form role="form" class="formGroup">
+          <fieldset role="group">
+            <button type="button" role="button" class="btn btn-lg col-md-6 aBtn">Option 1</button>
+            <button type="button" role="button" class="btn btn-lg col-md-6 aBtn">Option 2</button>
+            <button type="button" role="button" class="btn btn-lg col-md-6 aBtn">Option 3</button>
+            <button type="button" role="button" class="btn btn-lg col-md-6 aBtn">Option 4</button>
+          </fieldset>
+          <h4>CORRECT! TRY AGAIN!</h4>
+          <fieldset class="twoButtons">
+            <button role="button" type="button" class="submitButton actionButtons">Submit</button>
+            <button role="button" type="button" class="restartButton actionButtons">Start Over</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </main>
+<!--FINAL PAGE-->
+  <main role="main">
+    <div class="container">
+      <div class="results">
+        <!--BE SURE TO REMOVE TOP INFO AND DISPLAY HERE INSTEAD-->
+        <h2>Results</h2>
+        <p>Your final score was x/10</p>
+        <p>Care to play again?</p>
+      </div>
+      <button role="button" type="button" class="restartButton actionButtons">Play Again</button>
+    </div>
+  </main>
+
+ </body>
+
+</html>
